@@ -107,3 +107,4 @@ kubectl exec -it -n local-ai deployment/ollama -- ollama list
   kubectl port-forward -n local-ai svc/openwebui-service 8080:8080
   ```
   Visit [http://localhost:8080](http://localhost:8080) in your browser.
+# k8s-ollama-openwebui-
