@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: local-ai
+
+resources:
+  - 01-dep-ollama.yaml
+  - 02-dep-openwebui.yaml
+  - 03-svc-ollama.yaml
+  - 04-svc-openwebui.yaml
+  - 05-pvc-ollama.yaml
+  - 06-pvc-openwebui.yaml

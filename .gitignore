@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / local backup files
+*.tmp
+*.bak
+*.swp
